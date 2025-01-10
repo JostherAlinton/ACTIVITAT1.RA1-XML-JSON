@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Document XML que representa una llista de productes d'una botiga online -->
+<botiga>
+    <!-- Cada producte està definit com un element dins de <botiga> -->
+    <producte codi="P001">
+        <nom>Portàtil Gaming XYZ</nom>
+        <descripcio>Portàtil d'alt rendiment amb GPU dedicada i pantalla de 15.6 polzades.</descripcio>
+        <preu>1299.99</preu>
+        <categoria>Electrònica</categoria>
+        <disponibilitat>En estoc</disponibilitat>
+        <imatge></imatge>
+    </producte>
+    <producte codi="P002">
+        <nom>Smartphone ABC</nom>
+        <descripcio>Smartphone amb pantalla AMOLED i càmera de 108 MP.</descripcio>
+        <preu>799.99</preu>
+        <categoria>Electrònica</categoria>
+        <disponibilitat>Esgotat</disponibilitat>
+        <imatge></imatge>
+    </producte>
+</botiga>
